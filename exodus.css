@@ -13,6 +13,21 @@ body {
     background-color: white;
 }
 
+.bodygray {
+    background-color: gray;
+}
+
+a {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor:pointer;  
+}
+
 @keyframes anim1 {
         0% {
             opacity: 0;
@@ -35,7 +50,7 @@ body {
     display: none;
     color: black;
     transition: all 2s;
-   
+    float: left;
 }
 
 #title {
@@ -44,7 +59,7 @@ body {
     transition: all 1.5s;
     color: rgb(97, 97, 97);
     position: relative;
-
+    cursor: zoom-in;
 }
 
 #title:hover {
@@ -87,3 +102,59 @@ section {
     transition: all 1s;
 }
 
+#mainpage > p {
+    text-decoration: solid;
+}
+
+.sneaks {
+    width: 10vh;
+    height: 10vh;
+    float: left;
+    align-content: space-between;
+    
+}
+
+.sneaks > img {
+    width: 800px;
+    height: auto;
+}
+
+.top {
+    display: grid;
+    float: left;
+}
+
+/* -------------------------- */
+
+.gallery {
+    transition: all 1s ease;
+    color: black;
+    
+}
+
+.gallery:hover {
+    transform: translateX(35px) scale(1.05);
+    color: rgb(190, 14, 29);
+}
+
+.gameinfo {
+    transition: all 1s ease;
+    color: black;
+    
+}
+
+.gameinfo:hover {
+    transform: translateX(35px) scale(1.05);
+    color: rgb(11, 163, 36);
+}
+
+.patreon {
+    transition: all 1s ease;
+    color: black;
+    
+}
+
+.patreon:hover {
+    transform: translateX(35px) scale(1.05);
+    color: rgb(2, 145, 201);
+}
